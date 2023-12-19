@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {  
+    background-color: rgb(0, 0, 0);
+    padding: 10vh; 
+}
+
+.menu-header { 
+    display: flex; 
+    justify-content: end; 
+    flex-wrap: wrap; 
+}
+
+.menu-header > li > a { /
+   color: white; 
+   text-decoration: none; 
+   font-size: 13px; 
+}
+
+.menu-header > li > a:hover {
+    color: rgb(81, 81, 228); 
+    transition: 0.8s; 
+}
+.menu-header > li { 
+    margin-left: 20px; 
+}
+
+
+#sessao { 
+    padding: 30vh; 
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgb(6, 87, 87) 100%); 
+    flex-wrap: wrap; 
+}
+
+
+#sessao > h1 { 
+    
+    font-size: 45px; 
+
+    color: rgba(0, 0, 0, 0.712); 
+}
+
+#sessao > p { 
+   font-size: 40px; 
+}
+
+#sessao > button { 
+    padding: 20px; 
+
+    border-radius: 50px; 
+    width: 20vw; 
+    color: rgb(19, 153, 108);
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+    font-size: 15px; 
+}
+
+
+#sessao > button:hover {
+    background-color: rgb(90, 168, 168);
+    color: white; 
+    border-color: white; 
+    transition: 0.5s;
+    }
+      
+
+
+
+#app { 
+    padding: 30vh; 
+    background-color: rgb(226, 233, 233); 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#app > div > button {
+    padding: 20px; 
+    border-radius: 50px;
+    width: 20vw; 
+    color: rgb(19, 153, 108); 
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+    font-size: 15px; 
+}
+
+
+#app > div > p{ 
+    font-size: 43px; 
+}
+
+#app > div button:hover{ 
+    background-color: rgb(90, 168, 168);
+    color: white; 
+    border-color: white; 
+    transition: 0.5s;
+}
+
+
+#app > div img { 
+    width: 30vw; 
+    height: 60vh; 
+    margin-left: 50px; 
+    margin-top: -70px; 
+}
+
+
+
+
+
+#container { 
+    padding: 30vh; 
+    background-color: rgb(226, 233, 233); 
+    flex-wrap: wrap; 
+}
+
+#container h2 { 
+    font-size: 40px; 
+    margin-top: -20rem; 
+    color: rgb(34, 34, 74); 
+    text-align: center; 
+}
+
+#container p { 
+    font-size: 20px; 
+    margin-top: 30px; 
+    color: rgba(0, 0, 0, 0.564);
+    text-align: justify; 
+}
+
+#container .text1 { 
+    text-align: center; 
+}
+
+#container button { 
+    padding: 20px; 
+    border-radius: 50px; 
+    width: 15vw; 
+    color: rgb(50, 50, 226); 
+    border-color: rgb(50, 50, 226); 
+    margin: 60px; 
+    font-size: 15px; 
+    
+}
+
+
+#container button:hover { 
+    background-color: rgb(50, 50, 226); 
+    color: white; 
+    border-color: white; 
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.line { 
+    margin: 0 auto; 
+    width: 70%; 
+}
+
+#container img { 
+    margin-left: 10vw; 
+    margin-top: 30px; 
+    width: 50vw; 
+}
+
+#container-cofre { 
+   background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5, 39, 101, 0.745) 100%), url(https://www.qsbank.com.br/wp-content/uploads/2022/02/texture4-1.jpg); /*Atribuimos antes da imagem uma cor para que fique sobreposta a imagem que está ao lado*/
+   background-position: center; 
+   background-attachment: fixed; 
+   padding: 10%; 
+   display: flex; 
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+
+#container-cofre img { 
+    width: 25vw; 
+    margin-top: 10rem; 
+    height: auto;
+    flex-wrap: wrap; 
+}
+
+#container-cofre h2 { 
+    
+    color: white; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+#container-cofre p { 
+    color: white; 
+    font-size: 17px; 
+    text-align: center;
+    margin-top: 2rem;
+   
+}
+
+
+
+
+
+footer { 
+    padding: 13vh; 
+    background-color: rgb(29, 28, 28); 
+    text-align: center; 
+    
+}
+
+footer img { 
+    width: 13rem; 
+    height: 4rem; 
+    margin-top: -5rem; 
+}
+
+footer p { 
+    color: white; 
+    font-size: 16px; 
+}
+
+.item-footer { 
+    color: rgba(255, 255, 255, 0.5); 
+    display: flex; 
+    justify-content: space-between; 
+    
+}
+
+.item-footer a { /*Aqui chamamos nossa Tag de link*/
+    color: rgba(255, 255, 255, 0.5); /*Cor da letra*/
+    text-decoration: none; /*Desabilitamos a cor da letra*/
+}
+
+.item-footer a:hover{ /*Efeito ao passar o cursor*/
+    color: rgba(232, 8, 202, 0.767); /*Cor da letra*/
+    transition: 0.8s; /*Tempo de transição*/
+}
